@@ -39,7 +39,7 @@ public class SwaggerUIConfiguration {
     private String swaggerUIRedirect;
     
     @Inject
-    @ConfigProperty(name = "swagger-ui.path", defaultValue = "/openapi.ui")
+    @ConfigProperty(name = "swagger-ui.path", defaultValue = "/swagger-ui")
     private String swaggerUIPath;
 
     @Inject
